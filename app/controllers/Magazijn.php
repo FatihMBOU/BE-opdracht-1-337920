@@ -96,7 +96,7 @@ class Magazijn extends BaseController
 
             if (empty($result)) {
                 $data['message'] = "In dit product
-zitten geen stoffen die een allergische reactie kunnen veroorzaken";
+                    zitten geen stoffen die een allergische reactie kunnen veroorzaken";
             } else {
                 $data['allergenen'] = $result;
             }
